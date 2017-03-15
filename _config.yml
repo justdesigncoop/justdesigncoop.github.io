@@ -77,12 +77,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
-  uri              :
+  name             : "JustDesign"
+  avatar           : "/assets/images/logo.png"
+  bio              : "The Social Justice Design Cooperative"
+  location         : "Chicago, IL"
+  email            : "justdesigncoop@gmail.com"
+  uri              : "https://justdesigncoop.github.io"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -241,14 +241,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
   # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
