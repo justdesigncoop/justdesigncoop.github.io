@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "JustDesign"
+title                    : "JustDesign Co-op"
 title_separator          : "-"
 name                     : "JustDesign"
 description              : "The Social Justice Design Cooperative"
-url                      : "https://justdesigncoop.github.io"
+url                      : "http://justdesigncoop.org"
 baseurl                  : ""
 repository               : "justdesigncoop"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -82,29 +82,11 @@ author:
   bio              : "The Social Justice Design Cooperative"
   location         : "Chicago, IL"
   email            : "justdesigncoop@gmail.com"
-  uri              : "https://justdesigncoop.github.io"
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           :
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         :
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
-  steam            :
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  uri              : "http://justdesigncoop.org"
+  facebook         : "justdesigncoop"
+  github           : "justdesigncoop"
+  instagram        : "justdesigncoop"
+  twitter          : "justdesigncoop"
 
 
 # Reading Files
@@ -231,6 +213,11 @@ compress_html:
   ignore:
     envs: development
 
+    
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -245,6 +232,13 @@ defaults:
   - scope:
       path: ""
       type: pages
+    values:
+      layout: single
+      author_profile: false
+  # _projects
+  - scope:
+      path: ""
+      type: projects
     values:
       layout: single
       author_profile: false

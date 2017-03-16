@@ -1,8 +1,100 @@
 # authors
+frank:
+  name             : "Frank Bergh"
+  avatar           : "/assets/images/avatars/frank.jpg"
+  bio              : 
+  location         : "Chicago, IL"
+  email            : "frank@justdesigncoop.org"
+  uri              : 
+  facebook         : 
+  github           : 
+  instagram        : 
+  twitter          : 
+dhara:
+  name             : "Dhara Shah"
+  avatar           : "/assets/images/avatars/dhara.jpg"
+  bio              : 
+  location         : "Chicago, IL"
+  email            : "dhara@justdesigncoop.org"
+  uri              : 
+  facebook         : 
+  github           : 
+  instagram        : 
+  twitter          : 
+maria:
+  name             : "Maria Bergh"
+  avatar           : "/assets/images/avatars/maria.jpg"
+  bio              : 
+  location         : "Chicago, IL"
+  email            : "maria@justdesigncoop.org"
+  uri              : 
+  facebook         : 
+  github           : 
+  instagram        : 
+  twitter          : 
+patrick:
+  name             : "Patrick Miller"
+  avatar           : "/assets/images/avatars/patrick.jpg"
+  bio              : 
+  location         : "Chicago, IL"
+  email            : "patrick@justdesigncoop.org"
+  uri              : 
+  facebook         : 
+  github           : 
+  instagram        : 
+  twitter          : 
 dan:
   name             : "Dan Wahl"
-  avatar           : "/assets/images/logo.png"
-  bio              : ""
+  avatar           : "/assets/images/avatars/dan.jpg"
+  bio              : 
   location         : "Chicago, IL"
-  email            : "drwahl@gmail.com"
+  email            : "dan@justdesigncoop.org"
   uri              : "http://danwahl.net"
+  facebook         : 
+  github           : "danwahl"
+  instagram        : 
+  twitter          : 
+laura:
+  name             : "Laura Sullivan"
+  avatar           : "/assets/images/logo.png"
+  bio              : 
+  location         : "Flint, MI"
+  email            : "laura@justdesigncoop.org"
+  uri              : 
+  facebook         : 
+  github           : 
+  instagram        : 
+  twitter          : 
+louis:
+  name             : "Louis Woofenden"
+  avatar           : "/assets/images/avatars/louis.jpg"
+  bio              : 
+  location         : "Tuscon, AZ"
+  email            : "louis@justdesigncoop.org"
+  uri              : 
+  facebook         : 
+  github           : 
+  instagram        : 
+  twitter          : 
+walt:
+  name             : "Walt Walker"
+  avatar           : "/assets/images/avatars/walt.jpg"
+  bio              : "Project Manager & Environmental Engineer in New York City. Volunteer with Engineers Without Borders-USA"
+  location         : "New York, NY"
+  email            : "walt@justdesigncoop.org"
+  uri              : 
+  facebook         : 
+  github           : 
+  instagram        : 
+  twitter          : 
+sunni:
+  name             : "Sunni Wissmer"
+  avatar           : "/assets/images/avatars/sunni.jpg"
+  bio              : ""
+  location         : "Seattle, WA"
+  email            : "sunni@justdesigncoop.org"
+  uri              : 
+  facebook         : 
+  github           : 
+  instagram        : 
+  twitter          : 
