@@ -4,9 +4,6 @@ permalink: /about/
 author_profile: true
 ---
 
-* table of contents
-{: toc .message .no-bullets}
-
 ## Context
 
 Design professionals have been trained and conditioned to work on behalf of those with greatest net worth rather than those with greatest human need.
