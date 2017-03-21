@@ -3,7 +3,9 @@ title: For-Profit or Non-Profit… Is There a Third Way?
 layout: single
 author: frank
 summary: Why member-owned co-ops are the best kept secret in humanitarian development
+published: true
 ---
+This is a cross-post from [Engineering for Change](https://www.engineeringforchange.org/for-profit-or-non-profit-is-there-a-third-way/).
 
 ## The choice between inefficiency and neocolonialism
 Oftentimes, non-profit models are thought to be old-fashioned. They seem reminiscent of large, monolithic NGOs, some of which have been accused of excessive overhead and administrative costs, as well as mismanagement of funds in the context of disasters. Thought leaders such as Paul Polak have proclaimed “The Death of Appropriate Technology,” accusing global aid providers of creating non-viable markets with overpriced ideas that are highly prone to failure in heavily subsidized and poorly understood operating environments. This critique is certainly relevant in a world where upwards of 30-40% of water pumps in Africa are in disrepair, and developing economies are craving “Trade, Not Aid” for sustainable growth. Much has been written about how the phenomenon known as “Poverty, Inc.” has created an aid-industrial complex which fosters foreign dependency rather than local self-reliance in the case of Haitian rice or Jamaican dairy, for example.
