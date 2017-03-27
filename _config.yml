@@ -251,35 +251,35 @@ prose:
   media: 'assets/images'
   metadata:
     _posts:
-      - name: "title"
-        field:
-          element: "text"
-          label: "title"
       - name: "layout"
         field:
           element: "hidden"
           value: "single"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
       - name: "author"
         field:
           element: "text"
-          label: "author"
+          label: "Author"
           value: ""
       - name: "summary"
         field:
           element: "text"
-          label: "summary"
+          label: "Summary"
           value: ""
     _projects:
-      - name: "title"
-        field:
-          element: "text"
-          label: "title"
       - name: "layout"
         field:
           element: "hidden"
           value: "single"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
       - name: "summary"
         field:
           element: "text"
-          label: "summary"
+          label: "Summary"
           value: ""
