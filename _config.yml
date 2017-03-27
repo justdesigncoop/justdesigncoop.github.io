@@ -245,7 +245,7 @@ defaults:
 
 # prose.io
 prose:
-  rooturl: '_posts'
+#  rooturl: '_posts'
   siteurl: 'http://justdesigncoop.github.io/'
 #  relativeLinks: 'http://justdesigncoop.github.io/links.jsonp'
   media: 'assets/images'
