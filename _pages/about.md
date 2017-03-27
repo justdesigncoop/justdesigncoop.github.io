@@ -1,8 +1,9 @@
 ---
-title: About JustDesign
+title: Statement of Purpose
 layout: single
 permalink: /about/
 author_profile: true
+published: true
 ---
 
 ## Context
