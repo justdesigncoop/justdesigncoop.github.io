@@ -251,6 +251,10 @@ prose:
   media: 'assets/images'
   metadata:
     _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
       - name: "layout"
         field:
           element: "hidden"
@@ -258,14 +262,18 @@ prose:
       - name: "author"
         field:
           element: "text"
-          label: "Author"
+          label: "author"
           value: ""
       - name: "summary"
         field:
           element: "text"
-          label: "Summary"
+          label: "summary"
           value: ""
     _projects:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
       - name: "layout"
         field:
           element: "hidden"
@@ -273,5 +281,5 @@ prose:
       - name: "summary"
         field:
           element: "text"
-          label: "Summary"
+          label: "summary"
           value: ""
