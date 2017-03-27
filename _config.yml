@@ -265,7 +265,7 @@ prose:
           element: "text"
           label: "Summary"
           value: ""
-      _projects:
+    _projects:
       - name: "layout"
         field:
           element: "hidden"
