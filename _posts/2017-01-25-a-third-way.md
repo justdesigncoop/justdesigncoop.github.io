@@ -1,12 +1,10 @@
 ---
-title: For-Profit or Non-Profit… Is There a Third Way?
 layout: single
+title: For-Profit or Non-Profit… Is There a Third Way?
 author: frank
 summary: Why member-owned co-ops are the best kept secret in humanitarian development
 published: true
 ---
-This is a cross-post from [Engineering for Change](https://www.engineeringforchange.org/for-profit-or-non-profit-is-there-a-third-way/).
-
 ## The choice between inefficiency and neocolonialism
 Oftentimes, non-profit models are thought to be old-fashioned. They seem reminiscent of large, monolithic NGOs, some of which have been accused of excessive overhead and administrative costs, as well as mismanagement of funds in the context of disasters. Thought leaders such as Paul Polak have proclaimed “The Death of Appropriate Technology,” accusing global aid providers of creating non-viable markets with overpriced ideas that are highly prone to failure in heavily subsidized and poorly understood operating environments. This critique is certainly relevant in a world where upwards of 30-40% of water pumps in Africa are in disrepair, and developing economies are craving “Trade, Not Aid” for sustainable growth. Much has been written about how the phenomenon known as “Poverty, Inc.” has created an aid-industrial complex which fosters foreign dependency rather than local self-reliance in the case of Haitian rice or Jamaican dairy, for example.
 
@@ -46,3 +44,5 @@ On the other hand, philanthropists and impact investors looking to support big i
 Let’s re-frame the discussion. Let’s make the most significant question become, “What structure maximizes the resiliency, ownership, and self-determination of the end users?” Quite honestly, why else would we have been invited in the first place? If we really believe that the role of development engineering is to collaborate with communities in pursuit of a brighter future of shared possibility, then development practice must be re-oriented as pedagogy. Engineering-For-Change does not mean depositing “our” ideas and technology into “their” community, but fostering the mutual discovery and amplification of voices we’ve never heard before.
 
 Design is a manifestation of creativity and creation is a means toward liberation. The goal of humanitarian development is not only to reduce vulnerability, but also to increase resiliency. Therefore, empowerment won’t be the destination unless it was also the journey. As development practitioners, establishing leadership and ownership within a local cooperative is the most effective way of deliberately working ourselves out of a job and leaving communities stronger than we found them.
+
+This is a cross-post from [Engineering for Change](https://www.engineeringforchange.org/for-profit-or-non-profit-is-there-a-third-way/).
