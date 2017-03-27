@@ -18,7 +18,7 @@ Some donors have been enthusiastically supportive of startups with timely ideas 
 ## So, is there another way?
 We tend to overlook the capability of the public sector in funding or sustaining sustainable development work. This approach is easily validated by direct experience: If governments in emerging markets had sufficient resources, then the UN’s development goals (the Millennium Development Goals that have evolved into the Sustainable Development Goals) would already be satisfied. We would have clean water for all and universal electrification achieved by taxes, not donations, without any foreign intervention. Oftentimes, progress towards these goals is hindered by real or perceived volatility and corruption in public sector agencies for public works. Long-term project horizons may be compromised by changes to the ruling party in election years. Big aid projects might be derailed by lack of accountability in civil society for large government contracts issued to multinational firms or fledgling local companies. Clearly, public-sector actors need private sector collaborators.
 
-[![7 Co-operative Principles]({{ site.baseurl }}/assets{{ page.id }}/7-cooperative-principles.jpg "7 Co-operative Principles"){: .center-image }]({{ site.baseurl }}/assets{{ page.id }}/7-cooperative-principles.jpg)
+![7 Co-operative Principles]({{site.baseurl}}/assets/images/7-cooperative-principles.jpg)
 
 ## Cooperatives: Unfashionably effective
 Many large infrastructure projects around the world are managed by cooperative governance structures. These entities are so far out of vogue as to be seldom even mentioned in contemporary discussions of humanitarian engineering. Could that be because cooperatives are primarily a sociological, not a technical phenomenon? Perhaps the engineering sector overlooks what it doesn’t understand. Take the following examples:
@@ -31,7 +31,7 @@ Many large infrastructure projects around the world are managed by cooperative g
 
 In the matrix below, I examine differential factors and outcomes of various governance structures.
 
-[![Governance Matrix]({{ site.baseurl }}/assets{{ page.id }}/Matrix.jpg "Governance Matrix"){: .center-image }]({{ site.baseurl }}/assets{{ page.id }}/Matrix.jpg)
+![Governance Matrix]({{site.baseurl}}/assets/images/Matrix.jpg)
 
 ## Let’s start by asking the right question
 
