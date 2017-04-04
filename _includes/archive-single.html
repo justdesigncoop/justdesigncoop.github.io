@@ -10,9 +10,9 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item" style="float:left;">
+<div class="{{ include.type | default: "list" }}__item" style="float:left; padding-right:100px;">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-     <h2 class="archive__item-title" itemprop="headline">
+     <h2 class="archive__item-title" itemprop="headline" style="margin-top:1em">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | absolute_url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
