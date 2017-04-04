@@ -31,7 +31,7 @@
       </div>
     {% endif %}
     <div>
-      <p class="page__meta">By: {{ post.author }}</p>
+      <p class="page__meta">{{ post.date | date: "%B %d, %Y" }} | {{ post.author }} </p>
       {% if post.read_time %}
         <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
       {% endif %}
