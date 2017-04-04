@@ -1,6 +1,6 @@
 ---
 layout: single
-published: false
+published: true
 title: Chicago's (Ongoing) Lead Crisis
 author: dan
 summary: >-
@@ -173,4 +173,3 @@ Tracking down information on water main replacements is not an easy task, thanks
 Thanks, I guess. Chicago at least does provide [email alerts](http://buildinganewchicago.org/) for water main replacements (assuming you already know the job code), which I'm planning to leverage to create water main replacement map in a future post.
 
 In addition to filtering water in homes with recently replaced water mains, there are likely other effective ways to target those most at risk for lead poisoning. Replacing any remaining LSLs in schools, daycare facilities, community centers, etc. would be an obvious next step towards ensuring blanket coverage. I'm also excited about DSSG's [Predictive Analytics to Prevent Lead Poisoning in Children](https://dssg.uchicago.edu/project/predictive-analytics-to-prevent-lead-poisoning-in-children/), and how it might be used to help target future water lead interventions.
-
