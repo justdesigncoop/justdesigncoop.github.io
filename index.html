@@ -1,6 +1,6 @@
 ---
 title: JustDesign Co-op
-layout: splash
+layout: archive
 permalink: /
 date: 2016-03-23T15:48:41.000Z
 header:
@@ -29,5 +29,12 @@ feature_row:
     title: Placeholder 3
     excerpt: 'Lorem ipsum dolor sit amet, quem mutat pro ei. Ex ius omnes discere.'
 published: true
+author_profile: true
 ---
-{% include feature_row id="intro" type="center" %}
+<!--{% include feature_row id="intro" type="center" %}-->
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% for post in site.posts %}
+  {% include archive-single.html %}
+{% endfor %}
