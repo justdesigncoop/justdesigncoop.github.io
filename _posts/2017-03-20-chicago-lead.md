@@ -6,6 +6,8 @@ author: dan
 summary: >-
   Estimating the health impact of leaded water on Chicago's kids, and the cost
   effectiveness of filtration.
+header:
+  teaser: /assets/images/bll-iq-schwartz.png
 ---
 The average blood lead level (BLL) of children in Chicago has been on a steady decline for more than two decades, thanks mostly to federal bans on the use of [leaded paint](https://en.wikipedia.org/wiki/U.S._Consumer_Product_Safety_Commission) and [gasoline](https://www.epa.gov/history/epa-history-lead) in recent decades (a strong argument for the [continued funding](https://www.nytimes.com/2017/03/15/us/politics/budget-epa-state-department-cuts.html) of the EPA). In a city that has become a symbol for the [resurgence of violence](http://www.newsweek.com/2016/12/23/chicago-gangs-violence-murder-rate-532034.html) in urban America, this is reason enough for hope in a [more peaceful future](http://www.chicagotribune.com/news/ct-lead-poisoning-science-met-20150605-story.html). But despite the substantial improvements, there remains a [source of lead](http://www.chicagotribune.com/news/opinion/commentary/ct-lead-pipes-service-lines-water-perspec-1004-md-20161003-story.html) that affects close to 80% of the city's kids.
 
