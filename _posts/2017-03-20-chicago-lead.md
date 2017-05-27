@@ -156,14 +156,6 @@ A meta-simulation of 100,000 groups results in the following probability distrib
 
 [![Lead pdf]({{site.baseurl}}/assets/images/lead-dist.png "Lead pdf"){: .center-image }]({{site.baseurl}}/assets/images/lead-dist.png)
 
-To get a feel for how well this compares with some of the gold standard interventions proposed by the Effective Altruism community, I combined the results with some of my [previous](/stochastic-altruism) [work](/stochastic-altruism-2016) using portfolio theory to allocate donations to different effective charities:
-
-[![EA portfolios]({{site.baseurl}}/assets/images/ea-pf.png "EA portfolios"){: .center-image }]({{site.baseurl}}/assets/images/ea-pf.png)
-
-[![EA dist]({{site.baseurl}}/assets/images/ea-dist.png "EA dist"){: .center-image }]({{site.baseurl}}/assets/images/ea-dist.png)
-
-[![EA mvp]({{site.baseurl}}/assets/images/ea-mvp.png "EA mvp"){: .center-image }]({{site.baseurl}}/assets/images/ea-mvp.png)
-
 While I'd caution against taking these results too literally, preventing lead poisoning in Chicago by filtering drinking water likely represents a low risk opportunity for donors interested in funding domestic health programs.
 
 ### Future work
