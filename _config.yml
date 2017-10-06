@@ -17,7 +17,10 @@ url                      : "http://justdesigncoop.org"
 baseurl                  : ""
 repository               : "justdesigncoop"
 teaser                   : "/assets/images/logo.png"
-minimal_mistakes_skin    : "default"
+minimal_mistakes_skin    : "justdesign"
+
+address                  : "1839 S Troy St, Chicago, IL 60623"
+phone                    : "(773) 789-8453"
 
 # breadcrumbs            : false # true, false (default)
 atom_feed:
