@@ -7,7 +7,9 @@ published: true
 members: [frank, dhara, maria, patrick, dan, louis, walt, sunni]
 ---
 
-<h3 class="archive__subtitle">Our Vision</h3>
+{% include toc title="" icon="table" %}
+
+### Our Vision
 
 There are communities throughout the world disconnected from society’s daily rights: clean water, sanitation, affordable living, quality education, personal rights. Often, they simply need the opportunity to thrive in today’s world.
 
@@ -17,8 +19,10 @@ We believe in civic pride and public service. And to do that, we must emerge out
 
 This does not limit us to solutions in the technical field, because our vision of solutions will also include activism, policy, education, and public health (physical and mental). Humanity is what drives us; our mission is to connect, to help develop a better quality of life for all. 
 
-<h3 class="archive__subtitle">Our Members</h3>
+### Our Members
 
-{% for member in page.members %}
-  {{ site.data.authors[member].name }}
-{% endfor %}
+<div class="grid__wrapper">
+  {% for member in page.members %}
+    {% include member-bio.html type="grid" %}
+  {% endfor %}
+</div>
