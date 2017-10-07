@@ -5,7 +5,6 @@ permalink: /about/
 author_profile: true
 published: true
 members: [frank, dhara, maria, patrick, dan, louis, walt, sunni]
-advisors: [laura]
 ---
 
 {% include toc title="" icon="table" %}
