@@ -1,5 +1,10 @@
 ---
 published: false
+layout: single
+author: walt
+summary: Recap of EWB Conference Presentation
+header:
+  teaser: /assets/images/bll-iq-schwartz.png
 ---
 ## A New Post
 
