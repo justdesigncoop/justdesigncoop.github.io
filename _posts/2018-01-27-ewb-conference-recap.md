@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: single
 author: walt
 summary: Recap of EWB Conference Presentation
