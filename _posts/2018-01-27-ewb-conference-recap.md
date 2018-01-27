@@ -16,7 +16,11 @@ This presentation and interactive audience discussion focused on the importance 
 
 ![robot]({{site.baseurl}}/_posts/6dof_waldo.png)![6dof_waldo.png]({{site.baseurl}}/_posts/6dof_waldo.png)
 
+> block quote
 
+-list
+-of
+-stuff
 
 1. Who are you serving and why? What do you prioritize and why? Who are your allies within your work? What do you consider success?
 
