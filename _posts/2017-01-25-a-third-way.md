@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: For-Profit or Non-Profit… Is There a Third Way?
 author: frank
 summary: Why member-owned co-ops are the best kept secret in humanitarian development

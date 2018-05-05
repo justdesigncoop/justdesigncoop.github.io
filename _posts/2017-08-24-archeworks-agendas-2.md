@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: Archeworks Agendas 2
 author: maria
 summary: 

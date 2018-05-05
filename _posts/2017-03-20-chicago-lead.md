@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 published: true
 title: Chicago's (Ongoing) Lead Crisis
 author: dan

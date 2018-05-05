@@ -1,6 +1,6 @@
 ---
 published: false
-layout: single
+layout: post
 author: walt
 summary: Recap of EWB Conference Presentation
 header:
