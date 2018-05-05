@@ -1,34 +1,64 @@
----
----
+<html>
+    <head>
+      <link rel="stylesheet" href="{{'/assets/main.css' | prepend: site.baseurl}}">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+      <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+      <link rel="icon" type="image/png" href="/assets/favicon-32x32.png" sizes="32x32">
+      <link rel="icon" type="image/png" href="/assets/favicon-16x16.png" sizes="16x16">
+      <link rel="manifest" href="/assets/manifest.json">
+      <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#339966">
+      <link rel="shortcut icon" href="/assets/favicon.ico">
+      
+    </head>
+    <body>
+      <header>
+        <!-- fixed navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+          <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item {% if page.title == 'about' %} active {% endif %}">
+                <a class="nav-link" href="about">about</a>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="mx-auto order-0">
+            <a class="navbar-brand mx-auto" href="{{ site.baseurl }}/">
+              {{ site.title }}
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          
+          <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <span class="nav-link">{{ site.tagline }}</span>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
 
-<!doctype html>
-<!--
-  Minimal Mistakes Jekyll Theme 4.6.0 by Michael Rose
-  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
-  Free for personal and commercial use under the MIT license
-  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
--->
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+      <!-- page content -->
+      <main role="main" class="container">
+        {{content}}
+      </main>
 
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
+      <!-- footer -->
+      <footer class="footer bg-secondary">
+        <div class="container">
+            <ul class="list-unstyled list-inline social text-center" style="margin-bottom: 0px;">
+              <li class="list-inline-item"><a href="mailto:hi@danwahl.net" target="_blank"><i class="fa fa-envelope"></i></a></li>
+              <li class="list-inline-item"><a href="https://github.com/danwahl"><i class="fa fa-github"></i></a></li>
+            </ul>
+        </div>
       </footer>
-    </div>
 
-    {% include scripts.html %}
-
-  </body>
+      <script src="{{'/assets/js/jquery.min.js' | prepend: site.baseurl}}"></script>
+      <script src="{{'/assets/js/popper.min.js' | prepend: site.baseurl}}"></script>
+      <script src="{{'/assets/js/bootstrap.bundle.min.js' | prepend: site.baseurl}}"></script>
+    </body>
 </html>
