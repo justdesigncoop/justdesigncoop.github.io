@@ -1,0 +1,15 @@
+//$custom-font-size: 12px;
+
+//$font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+//$font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
+//$font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+//$font-family-base:       $font-family-monospace;
+
+//$font-size-base: 3rem !default; // Assumes the browser default, typically `16px`
+
+$theme-colors: (
+  "primary": #339966,
+  "secondary": #f5f5f5
+);
+
+@import "bootstrap/variables";

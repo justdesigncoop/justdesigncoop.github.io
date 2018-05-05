@@ -1,0 +1,52 @@
+---
+---
+
+@import "bootstrap/functions";
+@import "variables";
+@import "bootstrap/bootstrap";
+
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+body > .container {
+  padding: 15px 15px 15px;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.blockquote {
+  padding-left: 15px;
+}
+
+.center-image {
+  max-width: 100%;
+  display:block;
+  margin:auto;
+}
+
+.toc {
+  padding: 15px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
