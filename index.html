@@ -1,6 +1,74 @@
 ---
 layout: default
-title: "JustDesign Cooperative, LLC"
+title: "JustDesign"
 ---
 
+<div class="rounded header-image" style="background-image: url('/assets/images/background.jpg'); background-position: center;">
+	<div class="jumbotron p-4 p-md-5 text-white " style="background-color: rgba(0, 0, 0, 0.2);">
+		<div class="px-0" >
+		  <h1 class="display-4 font-weight-bold">JustDesign is...</h1>
+		  <p class="lead font-weight-bold">a member-owned, multi-disciplinary, public-interest cooperative practicing rights-based, anti-oppressive, open source design. </p>
+		</div>
+	</div>
+</div>
+	
+
+  <div class="row">
+	<div class="col-md-8 blog-main">
+		<h3 class="pb-3 mb-4 border-bottom">
+			Blog
+		</h3>
+		{% for post in site.posts %}
+			<div class="blog-post" style="float:left; padding-right:1.75em;">
+				{% if post.header.teaser %}
+				  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+				{% else %}
+				  {% assign teaser = site.teaser %}
+				{% endif %}
+
+				{% if post.id %}
+				  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+				{% else %}
+				  {% assign title = post.title %}
+				{% endif %}
+				
+				<h2 class="blog-post-title"  style="margin-top:1em">      
+					{% if post.link %}
+						<a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | absolute_url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+					  {% else %}
+						<a href="{{ post.url | absolute_url }}" rel="permalink">{{ title }}</a>
+					{% endif %}
+				</h2>
+				
+				{% if teaser %}
+				  <div class="archive__item-teaser" style="float:left; margin-right:0.5em">
+					<a href="{{ post.url | absolute_url }}" rel="permalink"><img src=
+					  {% if teaser contains "://" %}
+						"{{ teaser }}"
+					  {% else %}
+						"{{ teaser | absolute_url }}"
+					  {% endif %}
+					  alt="" style="max-width:175px"></a>
+				  </div>
+				{% endif %}
+				
+				<p class="blog-post-meta">{{ post.date | date: "%B %d, %Y" }} by <a href="">{{ post.author }}</a></p>
+			
+				{% if post.excerpt %}
+					<p class="archive__item-excerpt" itemprop="description">
+						{{ post.excerpt | markdownify | strip_html | truncate: 160 }}
+					</p>
+				{% endif %}
+			</div>
+		{% endfor %}
+	</div>
+
+	<aside class="col-md-4 blog-sidebar">
+		<div>
+			<a class="twitter-timeline" href="https://twitter.com/justdesigncoop?ref_src=twsrc%5Etfw" data-tweet-limit="3">Tweets by justdesigncoop</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+		</div>
+	</aside>
+
+  </div>
+</div>
 

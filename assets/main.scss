@@ -5,8 +5,6 @@
 @import "variables";
 @import "bootstrap/bootstrap";
 
-
-
 html {
   position: relative;
   min-height: 100%;
@@ -21,7 +19,7 @@ body > .container {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 960px;
 }
 
 .blockquote {

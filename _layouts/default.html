@@ -13,25 +13,21 @@
     </head>
     <body>
       <header>
-        <!-- fixed navbar -->
-        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
-          <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+		<!-- Just an image -->
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+		  <a class="navbar-brand" href="">
+			<img src="/assets/images/logo-small.png" width="40" height="40" alt="">
+			JustDesign
+		  </a>
+		  
+		  <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item {% if page.title == 'about' %} active {% endif %}">
                 <a class="nav-link" href="about">about</a>
               </li>
             </ul>
           </div>
-          
-          <div class="mx-auto order-0">
-            <a class="navbar-brand mx-auto" href="{{ site.baseurl }}/">
-              {{ site.title }}
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
-          
+		  
           <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
@@ -39,7 +35,11 @@
               </li>
             </ul>
           </div>
-        </nav>
+		  
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		</nav>
       </header>
 
       <!-- page content -->
@@ -48,7 +48,7 @@
       </main>
 
       <!-- footer -->
-      <footer class="footer bg-secondary">
+      <footer class="footer bg-primary">
         <div class="container">
             <ul class="list-unstyled list-inline social text-center" style="margin-bottom: 0px;">
               <li class="list-inline-item"><a href="mailto:hi@danwahl.net" target="_blank"><i class="fa fa-envelope"></i></a></li>
