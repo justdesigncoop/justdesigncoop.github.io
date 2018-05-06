@@ -1,13 +1,10 @@
 ---
 title: About
-layout: single
-permalink: /about/
-author_profile: true
+layout: default
+permalink: /about
 published: true
 members: [frank, dhara, maria, patrick, dan, louis, walt, sunni]
 ---
-
-{% include toc title="" icon="table" %}
 
 ### Our Vision
 
@@ -21,8 +18,3 @@ This does not limit us to solutions in the technical field, because our vision o
 
 ### Our Members
 
-<div class="grid__wrapper">
-  {% for member in page.members %}
-    {% include member-bio.html type="grid" %}
-  {% endfor %}
-</div>

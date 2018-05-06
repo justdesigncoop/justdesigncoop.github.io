@@ -1,11 +1,12 @@
-markdown:     kramdown
-highlighter:  rouge
+markdown:       kramdown
+highlighter:    rouge
 
-title:        JustDesign Cooperative, LLC
-tagline:      'The Social Justice Design Cooperative'
-baseurl:      ''
-paginate:     999
-permalink:    :title
+title:          JustDesign Cooperative, LLC
+tagline:        'The Social Justice Design Cooperative'
+baseurl:        ''
+paginate:       5
+paginate_path:  /page:num/
+permalink:      :title
 
 plugins:
   - jekyll-paginate
@@ -15,4 +16,18 @@ sass:
     load_paths:
         - _sass
 
+include:
+  - _pages
+  - _posts
+  - _projects
 exclude: []
+
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
+analytics:
+  provider               : "google"
+  google:
+    tracking_id          : "UA-96195887-1"

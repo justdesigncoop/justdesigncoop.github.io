@@ -15,10 +15,10 @@ title: "JustDesign"
 
   <div class="row">
 	<div class="col-md-8 blog-main">
-		<h3 class="pb-3 mb-4 border-bottom">
+		<h4 class="pb-3 border-bottom">
 			Blog
-		</h3>
-		{% for post in site.posts %}
+		</h4>
+		{% for post in paginator.posts %}
 			<div class="blog-post" style="float:left; padding-right:1.75em;">
 				{% if post.header.teaser %}
 				  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
@@ -32,16 +32,16 @@ title: "JustDesign"
 				  {% assign title = post.title %}
 				{% endif %}
 				
-				<h2 class="blog-post-title"  style="margin-top:1em">      
+				<h3 class="blog-post-title"  style="margin-top:1em">      
 					{% if post.link %}
 						<a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | absolute_url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
 					  {% else %}
 						<a href="{{ post.url | absolute_url }}" rel="permalink">{{ title }}</a>
 					{% endif %}
-				</h2>
+				</h3>
 				
 				{% if teaser %}
-				  <div class="archive__item-teaser" style="float:left; margin-right:0.5em">
+				  <div class="blog-post-teaser" style="float:left; margin-right:0.5em">
 					<a href="{{ post.url | absolute_url }}" rel="permalink"><img src=
 					  {% if teaser contains "://" %}
 						"{{ teaser }}"
@@ -55,12 +55,27 @@ title: "JustDesign"
 				<p class="blog-post-meta">{{ post.date | date: "%B %d, %Y" }} by <a href="">{{ post.author }}</a></p>
 			
 				{% if post.excerpt %}
-					<p class="archive__item-excerpt" itemprop="description">
+					<p class="blog-post-excerpt" itemprop="description">
 						{{ post.excerpt | markdownify | strip_html | truncate: 160 }}
 					</p>
 				{% endif %}
 			</div>
 		{% endfor %}
+		
+		<!-- Pagination links -->
+		<nav class="blog-pagination mt-3" style="float:left;">
+		  {% if paginator.previous_page %}
+			<a class="btn btn-outline-primary" href="{{ paginator.previous_page_path }}">Previous</a>
+		  {% else %}
+			<a class="btn btn-outline-primary disabled" href="#">Previous</a>
+		  {% endif %}
+		  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+		  {% if paginator.next_page %}
+			<a class="btn btn-outline-secondary" href="{{ paginator.next_page_path }}">Next</a>
+		  {% else %}
+			<a class="btn btn-outline-secondary disabled" href="#">Next</a>
+		  {% endif %}
+		</nav>
 	</div>
 
 	<aside class="col-md-4 blog-sidebar">

@@ -1,6 +1,6 @@
 ---
 title: Test Project
-layout: single
+layout: default
 ---
 
 Lorem ipsum dolor sit amet, quem mutat pro ei. Ex ius omnes discere. Nam eu laoreet graecis corpora, in nam graecis feugait, et cum delicata tincidunt. Et scripta aliquando usu, alia signiferumque ut quo. Eos eu nominati scribentur. Mundi scripta honestatis ei usu.
