@@ -19,7 +19,7 @@ title: "JustDesign"
 			Blog
 		</h4>
 		{% for post in paginator.posts %}
-			<div class="blog-post" style="float:left; padding-right:1.75em;">
+			<div class="blog-post">
 				{% if post.header.teaser %}
 				  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 				{% else %}
@@ -32,16 +32,16 @@ title: "JustDesign"
 				  {% assign title = post.title %}
 				{% endif %}
 				
-				<h3 class="blog-post-title"  style="margin-top:1em">      
+				<h4 class="blog-post-title">      
 					{% if post.link %}
 						<a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | absolute_url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
 					  {% else %}
 						<a href="{{ post.url | absolute_url }}" rel="permalink">{{ title }}</a>
 					{% endif %}
-				</h3>
+				</h4>
 				
 				{% if teaser %}
-				  <div class="blog-post-teaser" style="float:left; margin-right:0.5em">
+				  <div class="blog-post-teaser">
 					<a href="{{ post.url | absolute_url }}" rel="permalink"><img src=
 					  {% if teaser contains "://" %}
 						"{{ teaser }}"
@@ -63,7 +63,7 @@ title: "JustDesign"
 		{% endfor %}
 		
 		<!-- Pagination links -->
-		<nav class="blog-pagination mt-3" style="float:left;">
+		<nav class="blog-pagination mt-3">
 		  {% if paginator.previous_page %}
 			<a class="btn btn-outline-primary" href="{{ paginator.previous_page_path }}">Previous</a>
 		  {% else %}

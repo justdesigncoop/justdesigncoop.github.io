@@ -18,16 +18,21 @@ In a [2012 study](https://www.epa.gov/il/chicago-lead-drinking-water-study), Fli
 
 In this post I'll develop [a model](https://github.com/danwahl/stochastic-altruism) to quantify the effects of this maintenance on public health, and the cost effectiveness of distributing water filters to at-risk families.
 
-### Estimating health impacts
+<!--more-->
+* table of contents
+{: toc .list-unstyled .list-group-item-light .toc}
+
+##### Estimating health impacts
 
 The World Health Organization proposed a framework to help measure the effects of lead poisoning in a 2002 report entitled [Lead: Assessing the environmental burden of disease at national and local levels](http://www.who.int/quantifying_ehimpacts/publications/9241546107/en/). Although the authors considered a spectrum of associated medical conditions (anemia, gastrointestinal symptoms, high blood pressure), cognitive impairment (IQ loss) due to lead poisoning represents the greatest threat to children with relatively low lead exposure.
 
 In order to calculate the overall impact of decreased IQ on a community, the WHO report leveraged studies linking BLL to IQ, and IQ to disability. To extend this estimate to Chicago's water infrastructure, two additional factors are required: the current state of lead poisoning in the city, and the relationship between water lead level and BLL. I'll summarize each step of the calculation process in the sections below.
 
-### Water lead to BLL
+##### Water lead to BLL
 
 The association between lead in the water and BLL was established by Bruce Lanphear in his 1998 paper [Environmental Exposures to Lead and Urban Children's Blood Lead Levels](https://www.ncbi.nlm.nih.gov/pubmed/9515067). The data from Table 6 is shown below:
 
+{: .table .table-bordered .table-striped}
 | Water lead (ppb) | Increase in BLL µg/dl | 95% CI low | 95% CI High |
 |:----------------:|:---------------------:|:----------:|:-----------:|
 |         1        |          0.3          |     0.1    |     0.4     |
@@ -49,7 +54,7 @@ const          0.2369      0.037      6.334      0.000
 x1             0.4952      0.014     35.582      0.000
 ```
 
-### BLL to IQ loss
+##### BLL to IQ loss
 
 The WHO report references a [1994 meta-analysis](https://www.ncbi.nlm.nih.gov/pubmed/8162884) to infer the relationship between BLL and IQ loss, fitting a linear model to the data as shown here:
 
@@ -61,12 +66,13 @@ However, a [more recent study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1257
 
 I've used Lanphear's data in my model, since the vast majority of children in Chicago have a low, but non-zero BLL that would be poorly represented by the linear approximation.
 
-### IQ loss to disability weight
+##### IQ loss to disability weight
 
 The WHO maintains a [list of weights](http://www.who.int/healthinfo/global_burden_disease/GBD2004_DisabilityWeights.pdf) for most major health conditions as part of its [Disability Adjusted Life Year](http://www.who.int/healthinfo/global_burden_disease/metrics_daly/en/) (DALY) metric, used to estimate the effectiveness of health interventions. On average, one DALY represents one year of healthy life lost.
 
 In the case of cognitive impairment due to lead exposure, the WHO lists a weight of ```0.361```, referencing a [1997 study from the Netherlands](https://www.researchgate.net/publication/254787050_Disability_Weights_for_Diseases_in_The_Netherlands). The original study, however, describes a more complex relationship between IQ and disability, as shown in the table below:
 
+{: .table .table-bordered .table-striped}
 | IQ low | IQ high | Weight | CI low | CI high |
 |:------:|:-------:|:------:|:------:|:-------:|
 |   70   |    84   |  0.090 |  0.137 |  0.040  |
@@ -84,7 +90,7 @@ const          0.9840      0.101      9.740      0.002
 x1            -0.0116      0.002     -5.665      0.011
 ```
 
-### Lead poisoning in Chicago
+##### Lead poisoning in Chicago
 
 Tracking down specific, consistent numbers to estimate the distribution of BLL in Chicago proved to be a surprisingly difficult task. After pouring through [city](https://data.cityofchicago.org/d/v2z5-jyrq) and [state](http://www.dph.illinois.gov/topics-services/environmental-health-protection/lead-poisoning-prevention/childhood-surveillance)-level data (Illinois DPH, what's with the [2014 numbers](http://www.dph.illinois.gov/sites/default/files/publications/leadsurveillance-report2014-rev101916-102116.pdf)?), I finally found the graphs I was looking for in a [2015 presentation](http://www.luc.edu/media/lucedu/hhhci/pdf/Loyola_Issue%20Briefing_CDPH_Lohff.pdf) by Chicago's Medical Director for Environmental Health Cort Lohff, and used [WebPlotDigitizer](http://arohatgi.info/WebPlotDigitizer/) to extract the data. The plot for BLL > 10 μg/dL is shown below:
 
@@ -94,7 +100,7 @@ To derive the full distribution using the two given points (BLL > 5 μg/dL and B
 
 [![Chicago lead fit]({{site.baseurl}}/assets/images/ln-fit.png "Chicago lead fit"){: .center-image }]({{site.baseurl}}/assets/images/ln-fit.png)
 
-### The whole thing
+##### The whole thing
 
 Combining all the data from above, the workflow for the cost effectiveness model is as follows:
 
@@ -112,10 +118,11 @@ Combining all the data from above, the workflow for the cost effectiveness model
 
 For most kids chosen at random from homes with disturbed LSLs, any intervention will have little or no effect because disability weights only register at sub-100 IQ levels. As such, this estimate represents a lower bound for the true benefits of averting childhood lead poisoning, in that it ignores the negative effects of IQ loss that don't lead to disability.
 
-### Simulating the solution
+##### Simulating the solution
 
 Of the plausible interventions that could reduce Chicago's water lead exposure, I've highlighted what I consider to be the four most plausible below, along with pros and cons for each.
 
+{: .table .table-bordered .table-striped}
 | Intervention | Pros | Cons |
 |:-------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Information | Simply informing residents about their lead service lines, and the associated health risks to their kids, might be enough to convince many to take independent action. Those in wealthier communities may be amenable to the cost of replacing their LSL, and others could simply change their water habits in a way that best fits their needs/means, such as flushing their taps, and/or using bottled/filtered water. | The [cost of replacing a single LSL](http://chicago.cbslocal.com/2016/12/08/2-investigators-cost-of-replacing-lead-service-lines-is-on-chicago-home-owners/) can run upwards of $10K, putting the most sustainable solution out of the reach of many of Chicago's poorest residents. Human beings are also notoriously bad at interacting with undetectable environmental dangers (such as CO<sub>2</sub>). |
@@ -123,10 +130,11 @@ Of the plausible interventions that could reduce Chicago's water lead exposure, 
 | Bottled water | Aside from replacing an LSL, bottled water is one of the few solutions that is [nominally](https://www.fda.gov/ForConsumers/ConsumerUpdates/ucm203620.htm) free of lead. While small individual bottles can be expensive, dispensers which use large, recyclable jugs might be more sustainable. | Bottled water is notorious for being [wasteful and expensive](https://www.washingtonpost.com/news/wonk/wp/2015/08/28/americas-growing-love-affair-with-the-most-wasteful-thing-to-drink-there-is), and that reputation is well deserved. As with LSL replacement, this option is likely unavailable to those with the [highest risk](http://apps.chicagotribune.com/news/watchdog/chicago-lead-poisoning/) of lead poisoning. Water is also heavy and [difficult to transport](http://news.nationalgeographic.com/2016/02/160209-flint-michigan-portraits-photography-lead/), part of the reason we have a municipal delivery system in the first place. |
 | Filtration | Unlike bottled water, filters leverage the existing distribution infrastructure, removing any contaminants in the final step before consumption. Water filtration can also remove other harmful dissolved solids such as copper, with some filters even [promising to remove *all* TDS](https://www.zerowater.com/comparison-chart.php) (which might have additional health benefits and risks). | The useful life of a filter cartridge largely depends on TDS, and may be inefficient for some municipal supplies. Replacement cartridge costs are recurring, and could total hundreds of dollars per family per year. It might also be difficult to remember to use filtered water consistently, especially if the filtration process is inconvenient. |
 
-### Filtering Chicago's water
+##### Filtering Chicago's water
 
 Despite the limitations of water filtration, I believe it represents the most cost effective intervention for removing all the lead from Chicago's water. A simple back-of-the-envelope calculation, shown in the table below, helps estimate the per-child cost of filter distribution.
 
+{: .table .table-bordered .table-striped}
 | Parameter          | Value  | Description                   |
 |----------------------|-------:|-------------------------------------------------------------------|
 | [Chicago TDS](https://www.cityofchicago.org/city/en/depts/water/supp_info/water_quality_resultsandreports/comprehensive_chemicalanalysis.html)          | 175    | Total dissolved solids in Chicago water supply                    |
@@ -149,7 +157,7 @@ To get the filter-specific variables, I selected the ZeroWater system, apparentl
 
 Assuming that only families with kids from the age of 0 to 6 are targeted, and the filtered water is only used by the kids, there's still the question of how many days of filtration are required to avert the negative consequences of a water main replacement. While there [doesn't seem to be a clear answer](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2866705/) to this question, I've assumed that [four months](https://fivethirtyeight.com/features/when-will-flints-water-be-safe-to-drink/) of filtration is sufficient for the purposes of this estimate.
 
-### The cost effectiveness of filtration
+##### The cost effectiveness of filtration
 
 Because the model estimates the effectiveness on a per-child basis, it's necessary to simulate a cohort of children to properly estimate the uncertainty. Assuming an initial budget of $5000, and dividing that by the cost per child estimate above, yields an average of approximately 100 children per intervention group.
 
@@ -159,7 +167,7 @@ A meta-simulation of 100,000 groups results in the following probability distrib
 
 While I'd caution against taking these results too literally, preventing lead poisoning in Chicago by filtering drinking water likely represents a low risk opportunity for donors interested in funding domestic health programs.
 
-### Future work
+##### Future work
 
 Tracking down information on water main replacements is not an easy task, thanks mostly to an opaque local bureaucracy. Chicago's [website listing recent water mains repairs](https://www.cityofchicago.org/city/en/depts/water/supp_info/dwm_constructionprojects.html) hasn't been updated since 2015, and a FOIA request for that data was (promptly) fulfilled not by an emailed spreadsheet, but with a CD, filled with hundreds of individual PDFs, sent by mail.
 

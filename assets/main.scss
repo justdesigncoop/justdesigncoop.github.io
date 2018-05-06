@@ -22,8 +22,9 @@ body > .container {
   max-width: 960px;
 }
 
-.blockquote {
+blockquote {
   padding-left: 15px;
+  border-left: 1px;
 }
 
 .center-image {
@@ -47,4 +48,106 @@ body > .container {
 .footer > .container {
   padding-right: 15px;
   padding-left: 15px;
+}
+
+.blog-main {
+  overflow: hidden;
+}
+
+.blog-post {
+  float: left;
+  padding-right: 1em;
+}
+
+.blog-post-title {
+  margin-top: 1em;
+}
+
+.blog-post-teaser {
+  float:left;
+  margin-right:0.5em;
+}
+
+.blog-pagination {
+  float: left;
+}
+
+.sidebar {
+  margin-bottom: 1em;
+  opacity: 0.75;
+
+    &:hover {
+      opacity: 1;
+    }
+}
+
+.author-avatar {
+  display: table-cell;
+  vertical-align: top;
+  width: auto;
+  height: auto;
+
+  img {
+    max-width: 110px;
+    border-radius: 50%;
+  }
+}
+
+.author-content {
+  vertical-align: top;
+  line-height: 1;
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.author-name {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sidebar .author-name {
+  font-family: $font-family-sans-serif;
+  font-size: $font-size-base;
+}
+
+.author-bio {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.author-urls-wrapper {
+  position: relative;
+  display: block;
+  vertical-align: middle;
+  font-family: $font-family-sans-serif;
+  z-index: 10;
+  position: relative;
+  cursor: pointer;
+
+  li:last-child {
+    a {
+      margin-bottom: 0;
+    }
+  }
+
+  button {
+    margin-bottom: 0;
+	display: none;
+  }
+}
+
+.author-urls {
+  display: block;
+  position: relative;
+  right: 0;
+  margin-top: 0;
+  padding: 0;
+  list-style-type: none;
+  border: 0;
+  background: transparent;
+  z-index: -1;
+  box-shadow: none;
+  cursor: default;
 }
