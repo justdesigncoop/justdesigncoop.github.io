@@ -3,8 +3,10 @@ title: About
 layout: default
 permalink: /about
 published: true
-members: [frank, dhara, maria, patrick, dan, louis, walt, sunni]
 ---
+
+* table of contents
+{: toc .list-unstyled .list-group-item-light .toc}
 
 ### Our Vision
 
@@ -18,3 +20,93 @@ This does not limit us to solutions in the technical field, because our vision o
 
 ### Our Members
 
+<div class="">
+	{% for author in site.data.authors %}
+		<div class="media mb-3">
+			{% if author[1].avatar %}
+			  {% capture avatar %}{{ author[1].avatar }}{% endcapture %}
+			{% else %}
+			  {% assign avatar = site.avatar %}
+			{% endif %}
+			
+			{% if avatar %}
+			  <div class="mr-3">
+				<img class="media-object" src=
+				  {% if avatar contains "://" %}
+					"{{ avatar }}"
+				  {% else %}
+					"{{ avatar | absolute_url }}"
+				  {% endif %}
+				  alt="" style="max-width:175px">
+			  </div>
+			{% endif %}
+			
+			<div class="media-body">
+				<h4 class="media-heading d-inline">      
+					{{ author[1].name }}
+
+				</h4>
+				
+				<h6 class="d-inline">
+					{{ author[1].location }}
+				</h6>
+				
+				<ul class="list-unstyled list-inline" style="margin-bottom: 0px;">
+				  {% if author[1].uri %}
+					<li class="list-inline-item">
+					  <a href="{{ author[1].uri }}" itemprop="url">
+						<i class="fa fa-chain" aria-hidden="true"></i></a>
+					</li>
+				  {% endif %}
+
+				  {% if author[1].email %}
+					<li class="list-inline-item">
+					  <a href="mailto:{{ author[1].email }}">
+						<meta itemprop="email" content="{{ author[1].email }}" />
+						<i class="fa fa-envelope" aria-hidden="true"></i></a>
+					</li>
+				  {% endif %}
+
+				  {% if author[1].twitter %}
+					<li class="list-inline-item">
+					  <a href="https://twitter.com/{{ author[1].twitter }}" itemprop="sameAs">
+						<i class="fa fa-twitter" aria-hidden="true"></i></a>
+					</li>
+				  {% endif %}
+
+				  {% if author[1].facebook %}
+					<li class="list-inline-item">
+					  <a href="https://www.facebook.com/{{ author[1].facebook }}" itemprop="sameAs">
+						<i class="fa fa-facebook" aria-hidden="true"></i></a>
+					</li>
+				  {% endif %}
+
+				  {% if author[1].linkedin %}
+					<li class="list-inline-item">
+					  <a href="https://www.linkedin.com/in/{{ author[1].linkedin }}" itemprop="sameAs">
+						<i class="fa fa-linkedin" aria-hidden="true"></i></a>
+					</li>
+				  {% endif %}
+
+				  {% if author[1].instagram %}
+					<li class="list-inline-item">
+					  <a href="https://instagram.com/{{ author[1].instagram }}" itemprop="sameAs">
+						<i class="fa  fa-instagram" aria-hidden="true"></i></a>
+					</li>
+				  {% endif %}
+
+				  {% if author[1].github %}
+					<li class="list-inline-item">
+					  <a href="https://github.com/{{ author[1].github }}" itemprop="sameAs">
+						<i class="fa  fa-github" aria-hidden="true"></i></a>
+					</li>
+				  {% endif %}
+				</ul>
+			
+				{% if author[1].bio %}
+					{{ author[1].bio | markdownify }}
+				{% endif %}
+			</div>
+		</div>
+	{% endfor %}
+</div>

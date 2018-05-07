@@ -16,10 +16,10 @@ title: "JustDesign"
   <div class="row">
 	<div class="col-md-8 blog-main">
 		<h4 class="pb-3 border-bottom">
-			Blog
+			Latest posts
 		</h4>
 		{% for post in paginator.posts %}
-			<div class="blog-post">
+			<div class="media">
 				{% if post.header.teaser %}
 				  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 				{% else %}
@@ -32,17 +32,9 @@ title: "JustDesign"
 				  {% assign title = post.title %}
 				{% endif %}
 				
-				<h4 class="blog-post-title">      
-					{% if post.link %}
-						<a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | absolute_url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-					  {% else %}
-						<a href="{{ post.url | absolute_url }}" rel="permalink">{{ title }}</a>
-					{% endif %}
-				</h4>
-				
 				{% if teaser %}
-				  <div class="blog-post-teaser">
-					<a href="{{ post.url | absolute_url }}" rel="permalink"><img src=
+				  <div class="mr-3 mb-3">
+					<a class="pull-left" href="{{ post.url | absolute_url }}" rel="permalink"><img class="media-object" src=
 					  {% if teaser contains "://" %}
 						"{{ teaser }}"
 					  {% else %}
@@ -52,13 +44,23 @@ title: "JustDesign"
 				  </div>
 				{% endif %}
 				
-				<p class="blog-post-meta">{{ post.date | date: "%B %d, %Y" }} by <a href="">{{ post.author }}</a></p>
-			
-				{% if post.excerpt %}
-					<p class="blog-post-excerpt" itemprop="description">
-						{{ post.excerpt | markdownify | strip_html | truncate: 160 }}
-					</p>
-				{% endif %}
+				<div class="media-body">
+					<h4 class="media-heading">      
+						{% if post.link %}
+							<a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | absolute_url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+						  {% else %}
+							<a href="{{ post.url | absolute_url }}" rel="permalink">{{ title }}</a>
+						{% endif %}
+					</h4>
+					
+					<p class="">{{ post.date | date: "%B %d, %Y" }} by <a href="">{{ post.author }}</a></p>
+				
+					{% if post.excerpt %}
+						<p class="" itemprop="description">
+							{{ post.excerpt | markdownify | strip_html | truncate: 160 }}
+						</p>
+					{% endif %}
+				</div>
 			</div>
 		{% endfor %}
 		

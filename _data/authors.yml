@@ -1,7 +1,7 @@
 frank:
   name             : "Frank Bergh"
   avatar           : "/assets/images/avatars/frank.jpg"
-  bio              : 
+  bio              : "Frank Bergh, P.E. has spent his career engineering renewable energy without borders, by any means necessary. He’s an experienced electrical engineer with a background of diverse multicultural and interdisciplinary leadership in renewable energy projects in North/South America and Africa.\n\nFrank holds an Electrical Engineering degree with a minor in Spanish from Washington University in St. LouisU in 2008. His professional experience spans utility consulting (Transmission Planning Consultant, Burns & McDonnell), wind energy (Electrical Engineer -- Grid Interconnection, Nordex USA), solar energy (Director of Engineering, SoCore Energy), and energy storage (Principal Technical Advisor, Edison Energy).  He currently serves as the VP of Grid Engineering for Sigora International, building micro-utility businesses from scratch in Haiti and Zambia with local staff and management. For the past 12+ years, he has worked in developing communities as a volunteer, regional president, and former board member at Engineers Without Borders USA. He's a Contributing Editor to the blog at Engineering For Change and an instructor of Technology & Community Based Development at Colorado State University with Village Earth. In 2015, Frank was named one of Midwest Energy News' Top 40 Under 40 energy professionals."
   location         : "Chicago, IL"
   email            : "frank@justdesign.coop"
   uri              : 
@@ -13,7 +13,7 @@ frank:
 dhara:
   name             : "Dhara Shah"
   avatar           : "/assets/images/avatars/dhara.jpg"
-  bio              : 
+  bio              : "Dhara Shah is currently a human factors engineer at a design consultant firm and a researcher at an organization that connects universities around racism and violence. She has +5 years of professional experience in new product development, specifically in the healthcare industry. Her passion for human centered design led her pursue her Masters in Design which will start in Fall 2017. Dhara is also currently on the Board of Directors of Haiti Outreach, a non-profit organization using a community based model to address clean drinking water in Haiti.\n\nDhara also has 8+ years of  experience working in international development through Engineers Without Borders, Haiti Outreach, and a project with the Ministry of Education in Haiti. Through many lessons learned has found that a true anti-oppressive, rights-based organization is lacking in the engineering and design industry."
   location         : "Chicago, IL"
   email            : "dhara@justdesign.coop"
   uri              : 
@@ -25,7 +25,7 @@ dhara:
 maria:
   name             : "Maria Bergh"
   avatar           : "/assets/images/avatars/maria.jpg"
-  bio              : 
+  bio              : "Maria Bergh is a multidisciplinary designer and storyteller. She has over ten years experience advocating for public interest and participatory design. Maria is a confident writer, project manager, design researcher, facilitator, and graphic designer. She is licensed to practice architecture in Illinois and Ohio, and does so through We Build Agency. She earned a Master of Community Planning and Master of Architecture degrees from the DAAP program of the University of Cincinnati in 2012, was a Fellow with buildingcommunityWORKSHOP in 2013, completed her Archeworks Postgraduate Certificate in Public Interest Design in 2017 and holds LEED AP BD+C and SEED certified credentials.\n\nMaria was a founding member of Architecture for Humanity Cincinnati, and participated in the creation of the Open Architecture Collaborative. She is a part of the Catholic Worker Movement, sheltering homeless families, farming, and working for social change. She is also a passionate about bike culture, making art, food, and other elements of (urban) homesteading."
   location         : "Chicago, IL"
   email            : "maria@justdesign.coop"
   uri              : 
@@ -49,7 +49,7 @@ patrick:
 dan:
   name             : "Dan Wahl"
   avatar           : "/assets/images/avatars/dan.jpg"
-  bio              : 
+  bio              : "Dan’s formal education is in Mechanical Engineering, in which he received a Master of Science from the University of Michigan in 2007. Since then he has been developing software in the fields of environmental and systems engineering, most recently as Senior Controls Engineer at a medical robotics company in Chicago."
   location         : "Chicago, IL"
   email            : "dan@justdesign.coop"
   uri              : "http://danwahl.net"
@@ -58,21 +58,10 @@ dan:
   instagram        : 
   twitter          : 
   linkedin         : "drwahl"
-laura:
-  name             : "Laura Sullivan"
-  avatar           : "/assets/images/logo.png"
-  bio              : 
-  location         : "Flint, MI"
-  email            : "laura@justdesign.coop"
-  uri              : 
-  facebook         : 
-  github           : 
-  instagram        : 
-  twitter          : 
 louis:
   name             : "Louis Woofenden"
   avatar           : "/assets/images/avatars/louis.jpg"
-  bio              : 
+  bio              : "Louis is a renewable energy professional from Tucson, Arizona, where he's lived and worked since 2003. He has wide experience in various aspects of renewable energy, including design, installation, and project management of residential and small commercial solar electric, energy storage, and solar thermal systems.\n\nHe's also been fortunate to be able to collaborate with several communities around the world to build small-scale renewable energy projects, including communities in Ghana, Costa Rica, Cameroon, and Uganda.\n\nLouis is most inspired by learning, listening, teaching, and hands-on construction. At JustDesign, he's excited to bring together his love for people and technology to collaboratively serve communities with appropriate technologies and engineering, while also contributing to his own livelihood. He truly believes engineering should be transformative for clients and practitioners alike, not simply transactional.\n\nWhen he's not working on renewable energy projects, you might find him hiking, taking photographs, advocating for clean energy policies, or mentoring engineering students."
   location         : "Tuscon, AZ"
   email            : "louis@justdesign.coop"
   uri              : 
@@ -84,7 +73,7 @@ louis:
 walt:
   name             : "Walt Walker"
   avatar           : "/assets/images/avatars/walt.jpg"
-  bio              : "Project Manager & Environmental Engineer in New York City. Volunteer with Engineers Without Borders-USA"
+  bio              : "Walt is a project manager and environmental engineering consultant in New York City, with more than 10 years of experience in the industry. Walt is responsible for design of water, wastewater, and solid waste facilities and infrastructure; construction management; climate change resiliency planning; and environmental permitting.\n\nWalt has been an active volunteer with Engineers Without Borders-USA since 2006, including two terms as Philadelphia Professional Chapter president and now serving as EWB’s New York City Representative.  EWB-USA is a non-profit organization that partners with developing communities to design and implement sustainable engineering projects, while empowering those served to build a better world.  His EWB-USA experience includes community projects in the field of water supply, sanitation, public health, education in Malawi, El Salvador, Guatemala, and the Philippines. Walt’s passions also include a startup cooperative focused on social justice design projects in the U.S.\n\nWalt is a registered professional engineer (PE) in Pennsylvania, New Jersey, and New York. Walt is also an Envision-certified sustainability professional (ENV SP). He earned a Bachelor's Degree in Civil Engineering from Rowan University, and a Masters Degree in Environmental Engineering also from Rowan University.  Walt additionally serves as a Board Member of Global Water Alliance (formerly Philadelphia Global Water Initiative).\n\nOriginally from the Philadelphia area, Walt currently resides in Brooklyn, NY. His hobbies and passions include fitness, cooking, basketball, music, visiting museums, and exploring city green spaces."
   location         : "New York, NY"
   email            : "walt@justdesign.coop"
   uri              : 
@@ -93,15 +82,3 @@ walt:
   instagram        : 
   twitter          : "waltawalker"
   linkedin         : "waltwalker"
-sunni:
-  name             : "Sunni Wissmer"
-  avatar           : "/assets/images/avatars/sunni.jpg"
-  bio              : ""
-  location         : "Seattle, WA"
-  email            : "sunni@justdesign.coop"
-  uri              : 
-  facebook         : 
-  github           : 
-  instagram        : 
-  twitter          : 
-  linkedin         : "sunni-wissmer-a279794b"

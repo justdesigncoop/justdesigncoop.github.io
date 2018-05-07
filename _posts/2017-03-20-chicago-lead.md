@@ -18,7 +18,6 @@ In a [2012 study](https://www.epa.gov/il/chicago-lead-drinking-water-study), Fli
 
 In this post I'll develop [a model](https://github.com/danwahl/stochastic-altruism) to quantify the effects of this maintenance on public health, and the cost effectiveness of distributing water filters to at-risk families.
 
-<!--more-->
 * table of contents
 {: toc .list-unstyled .list-group-item-light .toc}
 
