@@ -8,6 +8,8 @@ paginate:       5
 paginate_path:  /page:num/
 permalink:      :title
 
+google_analytics:   UA-96195887-1
+
 plugins:
   - jekyll-paginate
   - github-pages
@@ -27,7 +29,3 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-analytics:
-  provider               : "google"
-  google:
-    tracking_id          : "UA-96195887-1"
