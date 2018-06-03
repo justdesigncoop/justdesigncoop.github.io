@@ -31,11 +31,11 @@ Given the proper equipment, wells can be drilled with high accuracy, but locatin
 
 [Resistivity meters](https://en.wikipedia.org/wiki/Electrical_resistance_survey) are a popular option for well siting applications. They work by creating a high voltage potential to the ground surface, and using probes to measure the induced current and voltage, from which the resistivity can be calculated. Abrupt changes in resistivity are often indicative of the boundaries between underground layers, and potentially the presence of groundwater.
 
-[![resistivity]({{ site.baseurl }}/assets{{ page.id }}/resistivity.jpg "resistivity"){: .center-image }](https://archive.epa.gov/esd/archive-geophysics/web/html/resistivity_methods.html)
+[![resistivity]({{ site.baseurl }}/assets/images/resistivity.jpg "resistivity"){: .center-image }](https://archive.epa.gov/esd/archive-geophysics/web/html/resistivity_methods.html)
 
 In order to gather data that can be used to understand the subsurface geology, the probes must be placed in one of several geometric arrangements, each with its own characteristic equation for converting voltage and current measurements to resistivity:
 
-[![arrays]({{ site.baseurl }}/assets{{ page.id }}/arrays.jpg "arrays"){: .center-image }](https://archive.epa.gov/esd/archive-geophysics/web/html/resistivity_methods.html)
+[![arrays]({{ site.baseurl }}/assets/images/arrays.jpg "arrays"){: .center-image }](https://archive.epa.gov/esd/archive-geophysics/web/html/resistivity_methods.html)
 
 The traditional Wenner Array, recommended for well siting beginners because its simplicity, uses equal probe spacing $$\alpha$$, and a corresponding resistivity equation of:
 
