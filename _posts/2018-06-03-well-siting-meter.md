@@ -138,3 +138,5 @@ Initial bench top test results indicate that the (rev A) on-board boost converte
 
 {: .text-center .text-muted .ml-5 .mr-5}
 Pictured from left to right: Eric, the well owner; Eugene, program manager and geologist; Lazarus, geologist, and Chuck, geologist, test the prototype of the resistivity meter in Njavnyuy, Cameroon.
+
+This is a cross-post from [danwahl.net](http://danwahl.net/well-siting-meter).
