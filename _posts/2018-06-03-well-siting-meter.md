@@ -49,7 +49,7 @@ Producing a map of the underground resistivity at various depths ($$d=\frac {3\a
 
 Our first task was to replicate the resistivity meter design proposed by Clark in his paper "Appropriate geophysics technology." The device, which was designed to cost less than $250, uses several commercial off-the-shelf (COTS) components and a custom switch box, as shown in the schematic below:
 
-[![schematic]({{ site.baseurl }}/assets{{ page.id }}/schematic.png "schematic"){: .center-image }]({{ site.baseurl }}/assets{{ page.id }}/schematic.png)
+[![schematic]({{ site.baseurl }}/assets/images/schematic.png "schematic"){: .center-image }]({{ site.baseurl }}/assets/images/schematic.png)
 
 Although the paper includes a detailed description of the design, it does not supply a bill of materials (BOM), and so generating one at the $250 price point was the first task. The BOM for the Version 1 (v1) meter is shown below:
 
