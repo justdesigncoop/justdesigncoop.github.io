@@ -84,7 +84,7 @@ The switch box circuitry was designed to fit the rectifier, capacitor, and switc
 
 Early testing of the v1 device appeared promising: our first outing, in a [river-side park](https://goo.gl/maps/rDWsLv1B5jK2) in Morton Grove, IL, resulted in the following chart, showing a clear change in resistivity at an $$\alpha$$ of about 20m:
 
-[![chart]({{ site.baseurl }}/assets{{ page.id }}/chart.png "chart"){: .center-image }]({{ site.baseurl }}/assets{{ page.id }}/chart.png)
+[![chart]({{ site.baseurl }}/assets/images/chart.png "chart"){: .center-image }]({{ site.baseurl }}/assets/images/chart.png)
 
 Overall, though, the v1 meter testing was marked by more technical setbacks than successes. Some of the biggest problems observed in the field by our partners were the following:
 
@@ -97,7 +97,7 @@ Although the switch box was originally designed to use banana jack connectors/po
 
 After some experience with the equipment, this issue seems to have resolved itself, though our partner Eugene in Cameroon came up with his own connector solution:
 
-[![connector]({{ site.baseurl }}/assets{{ page.id }}/connector.png "connector"){: .center-image }]({{ site.baseurl }}/assets{{ page.id }}/connector.png)
+[![connector]({{ site.baseurl }}/assets/images/connector.png "connector"){: .center-image }]({{ site.baseurl }}/assets/images/connector.png)
 
 ###### Confusing results
 
@@ -105,7 +105,7 @@ The most problematic aspect of the v1 testing process has been the inconsistent 
 
 Still, a most recent field test against a [Sting R1](https://www.agiusa.com/ministing) meter yielded promising results:
 
-[![chart]({{ site.baseurl }}/assets{{ page.id }}/chart2.png "chart"){: .center-image }]({{ site.baseurl }}/assets{{ page.id }}/chart2.png)
+[![chart]({{ site.baseurl }}/assets/images/chart2.png "chart"){: .center-image }]({{ site.baseurl }}/assets/images/chart2.png)
 
 ##### Version 2
 
@@ -116,7 +116,7 @@ Clark acknowledges some of the problems with the v1 design in his original paper
 
 A schematic of the "improved" device, showing the Arduino-powered automatic switching circuitry, and amplified current and voltage readings, was also included in the paper:
 
-[![schematic]({{ site.baseurl }}/assets{{ page.id }}/schematic2.png "schematic"){: .center-image }]({{ site.baseurl }}/assets{{ page.id }}/schematic2.png)
+[![schematic]({{ site.baseurl }}/assets/images/schematic2.png "schematic"){: .center-image }]({{ site.baseurl }}/assets/images/schematic2.png)
 
 When I emailed Dr. Clark to ask for details on his new design, however, he explained that the current iteration of the "improved" device was unstable, and that they had so far been unable to trace down the root cause (as of May 2017). Given the tight schedule for our development, we decided the best option was to proceed with our own automated version (v2), based on Clark's "improved" design.
 
@@ -134,7 +134,7 @@ We'll be presenting the v2 design at the upcoming [EWRI World Engineering and Wa
 
 Initial bench top test results indicate that the (rev A) on-board boost converter is slightly underpowered, and high-power measurements might cause the voltage level to dip, which will be addressed in an upcoming design change if it causes any issues. Once testing is complete, we plan on sending the first batch of v2 meters to our partners worldwide.
 
-[![Cameroon]({{ site.baseurl }}/assets{{ page.id }}/cameroon.jpg "Cameroon"){: .center-image }](https://posnercenter.org/icf-update-well-siting-meter/)
+[![Cameroon]({{ site.baseurl }}/assets/images/cameroon.jpg "Cameroon"){: .center-image }](https://posnercenter.org/icf-update-well-siting-meter/)
 
 {: .text-center .text-muted .ml-5 .mr-5}
 Pictured from left to right: Eric, the well owner; Eugene, program manager and geologist; Lazarus, geologist, and Chuck, geologist, test the prototype of the resistivity meter in Njavnyuy, Cameroon.
