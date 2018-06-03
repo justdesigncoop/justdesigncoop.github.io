@@ -43,7 +43,7 @@ $$\rho=2 \pi \alpha \frac {V}{I}$$
 
 Producing a map of the underground resistivity at various depths ($$d=\frac {3\alpha}{2}$$) is as easy as taking sequential measurements, centered around the point of interest, with increasing $$\alpha$$, and plotting the results (typically on a log scale), as shown below:
 
-[![plot]({{ site.baseurl }}/assets{{ page.id }}/plot.png "plot"){: .center-image }]({{ site.baseurl }}/assets{{ page.id }}/plot.png)
+[![plot]({{ site.baseurl }}/assets/images/plot.png "plot"){: .center-image }]({{ site.baseurl }}/assets{{ page.id }}/plot.png)
 
 ##### Version 1
 
