@@ -78,7 +78,7 @@ As designed, the system supports an electrode distance $$\alpha$$ of 250 ft (~75
 
 The switch box circuitry was designed to fit the rectifier, capacitor, and switches inside the Hammond enclosure, in order to keep the high-voltage electronics isolated and reduce the risk of shock. The wiring is shown in the image below:
 
-[![wiring]({{ site.baseurl }}/assets{{ page.id }}/wiring.jpg "wiring"){: .center-image }]({{ site.baseurl }}/assets{{ page.id }}/wiring.jpg)
+[![wiring]({{ site.baseurl }}/assets/images/wiring.jpg "wiring"){: .center-image }]({{ site.baseurl }}/assets/images/wiring.jpg)
 
 ##### Testing and lessons learned
 
