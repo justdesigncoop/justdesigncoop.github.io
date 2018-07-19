@@ -44,6 +44,9 @@ Recognizing the role that privilege plays within anti-oppression, we aim to dism
 - [**Rights-Based**](https://www.unfpa.org/human-rights-based-approach) - Regardless of where people are located, what they have been through, and who they are, everyone deserves their human rights to be met. When universal rights are not met, accountability lies within systemic failure of institutions, not shortcomings of individuals. Co-creating equitable solutions requires understanding the systemic failures of institutions relative to [human rights](http://www.un.org/en/universal-declaration-human-rights/). Not forcing a solution and fostering paternalism.  
 - **Love and Respect** - In the ways we treat our partners and each other, we strive to create spaces that amplify voices, create broad equity, and embody participatory democracy. Our humanity is bound in each other. Our liberation is mutual.
 
+We regard these expectations as among our core commitments to our partners, members, and colleagues. This is a living document, subject to periodic updates and revisions. As with any of our work, free to adopt and adapt.
+
+Thanks to GlobeMed and Rainforest Action Network whose Anti-Oppression Statements have influenced our own.
 
 ### Our Members
 
