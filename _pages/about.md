@@ -18,6 +18,10 @@ We believe in civic pride and public service. And to do that, we must emerge out
 
 This does not limit us to solutions in the technical field, because our vision of solutions will also include activism, policy, education, and public health (physical and mental). Humanity is what drives us; our mission is to connect, to help develop a better quality of life for all. 
 
+### Anti-Oppression Statement
+
+
+
 ### Our Members
 
 <div class="">
