@@ -21,7 +21,7 @@ This does not limit us to solutions in the technical field, because our vision o
 ### Anti-Oppression Statement
 
 <blockquote class="blockquote">
-  <p class="mb-0">The use of power to disempower, marginalize, silence or otherwise subordinate one social group or category, often in order to further empower and/or privilege the oppressor. Social oppression may not require formally established organizational support to achieve its desired effect; it may be applied on a more informal, yet more focused, individual basis.</p>
+  <p class="mb-0"><em>The use of power to disempower, marginalize, silence or otherwise subordinate one social group or category, often in order to further empower and/or privilege the oppressor. Social oppression may not require formally established organizational support to achieve its desired effect; it may be applied on a more informal, yet more focused, individual basis.</em></p>
   <footer class="blockquote-footer">As defined by the Anti-Oppression Network</footer>
 </blockquote>
 
