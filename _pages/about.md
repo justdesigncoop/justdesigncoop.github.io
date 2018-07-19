@@ -28,6 +28,14 @@ JustDesign Cooperative, LLC recognizes that existing systems and practices  natu
 
 Our ongoing process of practicing anti-oppression is rooted in the following commitments:
 
+#### Knowledge and introspection
+
+We are committed to learning about systems and institutions of oppression, and challenging when oppressive systems and behaviors arise within the organization. We are committed to learning the histories of marginalized communities by learning from their voices and experiences. 
+
+#### Examining privilege
+
+Recognizing the role that privilege plays within anti-oppression, we aim to dismantle privilege in the context of oppression and (to the extent appropriate) leverage our own privilege to benefit our partners without overshadowing their experiences and voices.
+
 - **Knowledge and introspection** - We are committed to learning about systems and institutions of oppression, and challenging when oppressive systems and behaviors arise within the organization. We are committed to learning the histories of marginalized communities by learning from their voices and experiences. 
 - **Examining privilege** - Recognizing the role that privilege plays within anti-oppression, we aim to dismantle privilege in the context of oppression and (to the extent appropriate) leverage our own privilege to benefit our partners without overshadowing their experiences and voices.
 - **Access and Integrity** -  Recognizing the importance of our work being transparent and equitable, we are committed to sharing our documents and projects openly, in a spirit of reducing barriers to entry in our work.  When our actions don’t live up to our values, we rely on our partners [call us in](https://everydayfeminism.com/2015/01/guide-to-calling-in/) to integrity.  We recognize that in an effort to be transparent, we are also documenting the majority of our work in English. We recognize that this creates a language barrier for access. We are working on translating these documents to be more accessible. 
