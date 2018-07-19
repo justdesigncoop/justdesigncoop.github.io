@@ -23,5 +23,3 @@ published: true
 
 ### Incorporation Guidance
 
-
-###
