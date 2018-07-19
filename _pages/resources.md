@@ -1,6 +1,8 @@
+---
 title: Resources
 layout: default
 permalink: /resources
+---
 
 ## A New Post
 
