@@ -11,10 +11,3 @@ Would you like to partner with or hire Just Design? Please visit our [project ap
 The form just the first part of a longer conversation about your goals, your abilities, and your ideas for partnership or projects. 
 
 If you haven't already done so, we invite you to read about [our vision, our anti-oppression statement, and our members](/about).
-
-
-### Current Projects
-
-
-
-### Finished Projects
