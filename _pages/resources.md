@@ -2,8 +2,19 @@
 title: Resources
 layout: default
 permalink: /resources
+published: true
 ---
 
-## A New Post
+* table of contents
+{: toc .list-unstyled .list-group-item-light .toc}
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+### Reading List
+
+
+### Article Links
+
+
+### Incorporation Guidance
+
+
+###
