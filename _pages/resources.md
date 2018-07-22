@@ -5,9 +5,6 @@ permalink: /resources
 published: true
 ---
 
-* table of contents
-{: toc .list-unstyled .list-group-item-light .toc}
-
 ## Open Access / Open Source Strategy
 The open-source model is a model that encourages open collaboration. A main principle of open-source development is peer production, with documentation freely available to the public. Open source promotes universal access via an open-source or free license to a product's design or blueprint, and universal redistribution of that design or blueprint. 
 
@@ -15,8 +12,10 @@ Generally, Open Source software is software that can be freely accessed, used, c
 
 The open-source approach helps to expand knowledge and provide access to free knowledge at a time when many forces are trying to enclose knowledge. The pressure on knowledge is similar to the pressure on social centers that are trying to resist enclosure.
 
-Credit: [Open Source Initiative] (http://opensource.org/osd), [Cooperative City] (http://cooperativecity.org/2017/09/29/goteo) 
+_Credit_: _[Open Source Initiative](http://opensource.org/osd), [Cooperative City](http://cooperativecity.org/2017/09/29/goteo)_
 
+* table of contents
+{: toc .list-unstyled .list-group-item-light .toc}
 
 ### Reading List / Article Links
 
@@ -28,4 +27,4 @@ Credit: [Open Source Initiative] (http://opensource.org/osd), [Cooperative City]
 - [Syllabus on Race and Justice in Design](http://bit.ly/RaceInDesign)
 - [Anti-Oppression Training and Resources](http://aorta.coop)
 
-### Incorporation Guidance
+### Incorporation Guidance and Templates
