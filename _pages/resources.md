@@ -5,7 +5,6 @@ permalink: /resources
 published: true
 ---
 
-
 ## Open Access / Open Source Strategy
 The open-source model is a model that encourages open collaboration. A main principle of open-source development is peer production, with documentation freely available to the public. Open source promotes universal access via an open-source or free license to a product's design or blueprint, and universal redistribution of that design or blueprint. 
 
