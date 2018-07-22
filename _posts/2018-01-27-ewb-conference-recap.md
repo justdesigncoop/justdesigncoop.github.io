@@ -1,26 +1,20 @@
 ---
-published: false
+published: true
 layout: post
 author: walt
 summary: Recap of EWB Conference Presentation
 header:
   teaser: /_posts/6dof_waldo.png
 ---
-## A New Post
+## Recap of JustDesign's presentation at the 2017 EWB-USA National Conference: Social Justice and Sustainable Humanitarian Design Practices
 
 JustDesign members presented at the October 2017 EWB-USA National Conference in Milwaukee, WI - members which were former and current Engineers WIthout Borders-USA chapter/project leaders. 
 
-The presenters shared lessons learned from their EWB-USA project experiences, engaged the audience in a participative process to consider key questions of how to incorporate meaningful social justice into their projects, noting the reality that it exists when involved in a development project.
+The presenters shared lessons learned from their EWB-USA project experiences and engaged the audience in a participative process to consider key questions of how to to consider key questions on priority of social justice in their projects.
 
-This presentation and interactive audience discussion focused on the importance of the often under-valued social/soft-skills required in capacity building projects. The participants were challenged to look internally at their own EWB projects and organizational structures to analyze how development is prioritized. As a method of evaluation, the JustDesign team dove deeply into understanding  the role of power in community-led projects through an anti-oppressive and meaningful social justice lens. Additionally, focus was also placed on addressing elements of volunteer-saviorship mentality and how that permeates through all layers of organizations. By asking uncomfortable questions such as “who really has the power to make a decision, the community or yourself?” the team aimed to bring resiliency and self-determination to the forefront of what should guide a project.
+This presentation and interactive audience discussion focused on the importance of the often undervalued social/soft-skills required in capacity building projects. The participants were challenged to look internally at their own EWB projects and organizational structures to analyze how development is prioritized. As a method of evaluation, the JustDesign team dove deeply into understanding  the role of power in community-led projects through an anti-oppressive and rights-based lens. Additionally, focus was placed on addressing elements of volunteer-saviorship mentality and how that permeates through all layers of organizations. By asking uncomfortable questions such as “who really has the power to make a decision, the community or yourself?” the team aimed to bring resiliency and self-determination to the forefront of what should guide a project.
 
-![robot]({{site.baseurl}}/_posts/6dof_waldo.png)![6dof_waldo.png]({{site.baseurl}}/_posts/6dof_waldo.png)
-
-> block quote
-
--list
--of
--stuff
+Examples of community leadership through cooperatives were presented as a source of inspiration to the audience. The presentation culminated in an interactive creative sharing exercise, asking participants to stretch their view of development and apply it directly to their projects. case studies and the development principles of a successful project. The exercise drew upon the importance of soft-skills and challenged participants to analyze to what extent those skills are currently being used, and what skills need to be developed. A few examples of these skills include: building and maintaining strong community/NGO relationships, understanding capacity building, recognizing social/cultural/behavioral difficulties early in the project (understanding why your partner community is in their current situation), practicing anti-oppression in decision making, and avoiding the volunteer “savior” mentality. Questions that participants answered and shared were:
 
 1. Who are you serving and why? What do you prioritize and why? Who are your allies within your work? What do you consider success?
 
@@ -30,5 +24,11 @@ This presentation and interactive audience discussion focused on the importance 
 
 4. What is your specific role/desired role in being a contributor to that world?
 
+<a href="https://www.youtube.com/watch?v=Z3xFKOkHREE" target="_blank"><img src="http://img.youtube.com/vi/Z3xFKOkHREE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=Z3xFKOkHREE" target="_blank"><img src="http://img.youtube.com/vi/Z3xFKOkHREE/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>  
+
+Visit the our recommended reading list shared from our presentation on our [Resources](http://justdesign.coop/resources) page!
+
+
