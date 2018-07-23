@@ -4,7 +4,7 @@ layout: post
 author: walt
 summary: Recap of EWB Conference Presentation
 header:
-  teaser: /_posts/6dof_waldo.png
+  teaser: /assets/images/ewb.jpg
 ---
 ##### Recap of JustDesign's presentation at the 2017 EWB-USA National Conference: Social Justice and Sustainable Humanitarian Design Practices
 
