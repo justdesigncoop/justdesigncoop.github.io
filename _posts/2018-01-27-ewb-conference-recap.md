@@ -17,18 +17,10 @@ This presentation and interactive audience discussion focused on the importance 
 Examples of community leadership through cooperatives were presented as a source of inspiration to the audience. The presentation culminated in an interactive creative sharing exercise, asking participants to stretch their view of development and apply it directly to their projects. case studies and the development principles of a successful project. The exercise drew upon the importance of soft-skills and challenged participants to analyze to what extent those skills are currently being used, and what skills need to be developed. A few examples of these skills include: building and maintaining strong community/NGO relationships, understanding capacity building, recognizing social/cultural/behavioral difficulties early in the project (understanding why your partner community is in their current situation), practicing anti-oppression in decision making, and avoiding the volunteer “savior” mentality. Questions that participants answered and shared were:
 
 1. Who are you serving and why? What do you prioritize and why? Who are your allies within your work? What do you consider success?
-
 2. Who has the power to make a decision in your project/chapter? How would you re-distribute the power given what you’ve learned today? How might you, and your Chapter, begin to address that evolution?
-
 3. If you could write key elements of harm reduction for all design professionals, what would it be?
-
 4. What is your specific role/desired role in being a contributor to that world?
 
-<a href="https://www.youtube.com/watch?v=Z3xFKOkHREE" target="_blank"><img src="http://img.youtube.com/vi/Z3xFKOkHREE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=Z3xFKOkHREE" target="_blank"><img src="http://img.youtube.com/vi/Z3xFKOkHREE/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>  
+<iframe width="100%" height="600" src="https://www.youtube.com/embed/Z3xFKOkHREE?rel=0" frameborder="0" allowfullscreen></iframe>
 
 Visit the our recommended reading list shared from our presentation on our [Resources](http://justdesign.coop/resources) page!
-
-
