@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+title: Recap of 2017 EWB-USA Conference 
 author: walt
 summary: Recap of EWB Conference Presentation
 header:
