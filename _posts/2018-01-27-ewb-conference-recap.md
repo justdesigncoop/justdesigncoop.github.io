@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: Recap of 2017 EWB-USA Conference 
+title: Recap of 2017 EWB-USA Conference
 author: walt
 summary: Recap of EWB Conference Presentation
 header:
@@ -21,6 +21,8 @@ Examples of community leadership through cooperatives were presented as a source
 2. Who has the power to make a decision in your project/chapter? How would you re-distribute the power given what you’ve learned today? How might you, and your Chapter, begin to address that evolution?
 3. If you could write key elements of harm reduction for all design professionals, what would it be?
 4. What is your specific role/desired role in being a contributor to that world?
+
+![JustDesignPostItsSlideshow.gif]({{site.baseurl}}/assets/images/JustDesignPostItsSlideshow.gif)
 
 <iframe width="100%" height="600" src="https://www.youtube.com/embed/Z3xFKOkHREE?rel=0" frameborder="0" allowfullscreen></iframe>
 
