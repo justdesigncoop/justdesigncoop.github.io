@@ -1,7 +1,7 @@
 ---
-published: false
+published: true
 ---
-## A New Post
+## Our 2018 Accomplishments
 
 Last weekend, JustDesign members gathered for a digital retreat to chart our course in 2019. While we spent a lot of time talking about the growth we hope to see in the coming year, we also had much to celebrate. As a co-operative, our journey never seems straight or even straightforward. In the coming weeks we will share out our lessons learned from starting a co-op; for now we want to share with you how far we’ve come.
 
