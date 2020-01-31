@@ -70,15 +70,15 @@ louis:
   instagram        : 
   twitter          : "louiswoof"
   linkedin         : "louiswoofenden"
-walt:
-  name             : "Walt Walker"
-  avatar           : "/assets/images/avatars/walt.jpg"
-  bio              : "Walt is a project manager and environmental engineering consultant in New York City, with more than 10 years of experience in the industry. Walt is responsible for design of water, wastewater, and solid waste facilities and infrastructure; construction management; climate change resiliency planning; and environmental permitting.\n\nWalt has been an active volunteer with Engineers Without Borders-USA since 2006, including two terms as Philadelphia Professional Chapter president and now serving as EWB’s New York City Representative.  EWB-USA is a non-profit organization that partners with developing communities to design and implement sustainable engineering projects, while empowering those served to build a better world.  His EWB-USA experience includes community projects in the field of water supply, sanitation, public health, education in Malawi, El Salvador, Guatemala, and the Philippines. Walt’s passions also include a startup cooperative focused on social justice design projects in the U.S.\n\nWalt is a registered professional engineer (PE) in Pennsylvania, New Jersey, and New York. Walt is also an Envision-certified sustainability professional (ENV SP). He earned a Bachelor's Degree in Civil Engineering from Rowan University, and a Masters Degree in Environmental Engineering also from Rowan University.  Walt additionally serves as a Board Member of Global Water Alliance (formerly Philadelphia Global Water Initiative).\n\nOriginally from the Philadelphia area, Walt currently resides in Brooklyn, NY. His hobbies and passions include fitness, cooking, basketball, music, visiting museums, and exploring city green spaces."
-  location         : "New York, NY"
-  email            : "walt@justdesign.coop"
-  uri              : 
-  facebook         : 
-  github           : 
-  instagram        : 
-  twitter          : "waltawalker"
-  linkedin         : "waltwalker"
+# walt:
+#   name             : "Walt Walker"
+#   avatar           : "/assets/images/avatars/walt.jpg"
+#   bio              : "Walt is a project manager and environmental engineering consultant in New York City, with more than 10 years of experience in the industry. Walt is responsible for design of water, wastewater, and solid waste facilities and infrastructure; construction management; climate change resiliency planning; and environmental permitting.\n\nWalt has been an active volunteer with Engineers Without Borders-USA since 2006, including two terms as Philadelphia Professional Chapter president and now serving as EWB’s New York City Representative.  EWB-USA is a non-profit organization that partners with developing communities to design and implement sustainable engineering projects, while empowering those served to build a better world.  His EWB-USA experience includes community projects in the field of water supply, sanitation, public health, education in Malawi, El Salvador, Guatemala, and the Philippines. Walt’s passions also include a startup cooperative focused on social justice design projects in the U.S.\n\nWalt is a registered professional engineer (PE) in Pennsylvania, New Jersey, and New York. Walt is also an Envision-certified sustainability professional (ENV SP). He earned a Bachelor's Degree in Civil Engineering from Rowan University, and a Masters Degree in Environmental Engineering also from Rowan University.  Walt additionally serves as a Board Member of Global Water Alliance (formerly Philadelphia Global Water Initiative).\n\nOriginally from the Philadelphia area, Walt currently resides in Brooklyn, NY. His hobbies and passions include fitness, cooking, basketball, music, visiting museums, and exploring city green spaces."
+#   location         : "New York, NY"
+#   email            : "walt@justdesign.coop"
+#   uri              : 
+#   facebook         : 
+#   github           : 
+#   instagram        : 
+#   twitter          : "waltawalker"
+#   linkedin         : "waltwalker"
