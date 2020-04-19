@@ -5,6 +5,7 @@ author: dan
 summary: 'Building an inexpensive, open-source meter for locating groundwater.'
 header:
   teaser: /assets/images/plot.png
+redirect_from: /well-siting-meter
 ---
 
 About a year ago, JustDesign was contracted by Global Hope Network International (GHNI) to build an inexpensive, open-source well siting meter for water borehole drilling. GHNI's West Africa team had recently received new drilling equipment, but had hit rock on both of their initial attempts, and needed a way to determine the best spot for future digging. Commercial well siting meters were not an option due to high costs, which can range from $3,000 to $10,000 per device.

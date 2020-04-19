@@ -6,10 +6,11 @@ author: walt
 summary: Recap of EWB Conference Presentation
 header:
   teaser: /assets/images/ewb.jpg
+redirect_from: /ewb-conference-recap
 ---
 ##### Recap of JustDesign's presentation at the 2017 EWB-USA National Conference: Social Justice and Sustainable Humanitarian Design Practices
 
-JustDesign members presented at the October 2017 EWB-USA National Conference in Milwaukee, WI - members which were former and current Engineers WIthout Borders-USA chapter/project leaders. 
+JustDesign members presented at the October 2017 EWB-USA National Conference in Milwaukee, WI - members which were former and current Engineers WIthout Borders-USA chapter/project leaders.
 
 The presenters shared lessons learned from their EWB-USA project experiences and engaged the audience in a participative process to consider key questions of how to to consider key questions on priority of social justice in their projects.
 

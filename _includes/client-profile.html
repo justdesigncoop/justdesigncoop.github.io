@@ -1,0 +1,22 @@
+{% if page.client and site.data.clients[page.client] %}
+  {% assign client = site.data.clients[page.client] %}
+{% endif %}
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  {% if client.logo %}
+    <div class="author-avatar">
+      {% if client.uri %}
+        <a href="{{ client.uri }}" itemprop="url">
+      {% endif %}
+      {% if client.logo contains "://" %}
+        <img src="{{ client.logo }}" alt="{{ client.name }}" itemprop="image">
+      {% else %}
+        <img src="{{ client.logo | absolute_url }}" class="author-avatar" alt="{{ client.name }}" itemprop="image">
+      {% endif %}
+      {% if client.uri %}
+        </a>
+      {% endif %}
+    </div>
+  {% endif %}
+</div>

@@ -1,89 +1,92 @@
 <html>
-    <head>
-      <link rel="stylesheet" href="{{'/assets/main.css' | prepend: site.baseurl}}">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      
-      <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
-      <link rel="icon" type="image/png" href="/assets/favicon-32x32.png" sizes="32x32">
-      <link rel="icon" type="image/png" href="/assets/favicon-16x16.png" sizes="16x16">
-      <link rel="manifest" href="/assets/manifest.json">
-      <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#339966">
-      <link rel="shortcut icon" href="/assets/favicon.ico">
-	  
-	  {% include analytics.html %}
-	  
-	  <title>JustDesign Cooperative</title>
-      
-    </head>
-    <body>
-      <header>
-		<!-- Just an image -->
-		<nav class="navbar navbar-expand-md navbar-light bg-light">
-		  <a class="navbar-brand" href="/">
-			<img src="/assets/images/logo-small.png" width="42" height="42" alt="">
-			JustDesign
-		  </a>
-		  
-		  <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2 mr-auto">
-			<ul class="navbar-nav">
-			  <li class="nav-item {% if page.title == 'About' %} active {% endif %}">
-				<a class="nav-link" href="/about">About</a>
-			  </li>
-			</ul>
-			<ul class="navbar-nav">
-			  <li class="nav-item {% if page.title == 'Blog' %} active {% endif %}">
-				<a class="nav-link" href="/blog">Blog</a>
-			  </li>
-			</ul>
-			<ul class="navbar-nav">
-			  <li class="nav-item {% if page.title == 'Projects' %} active {% endif %}">
-				<a class="nav-link" href="/projects">Projects</a>
-			  </li>
-			</ul>
-            
-			<ul class="navbar-nav">
-			  <li class="nav-item {% if page.title == 'Resources' %} active {% endif %}">
-				<a class="nav-link" href="/resources">Resources</a>
-			  </li>
-			</ul>
-			
-          </div>
-		  
-          <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <span class="nav-link">{{ site.tagline }}</span>
-              </li>
-            </ul>
-          </div>
-		  
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		</nav>
-      </header>
 
-      <!-- page content -->
-      <main role="main" class="container">
-        {{content}}
-      </main>
+<head>
+  <link rel="stylesheet" href="{{'/assets/main.css' | prepend: site.baseurl}}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-      <!-- footer -->
-      <footer class="footer bg-primary text-white">
-        <div class="container">
-            <ul class="list-unstyled list-inline text-center" style="margin-bottom: 0px;">
-              <li class="list-inline-item"><a class="text-white" href="mailto:justdesigncoop@github.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
-              <li class="list-inline-item"><a class="text-white" href="https://www.facebook.com/justdesigncoop/"><i class="fa fa-facebook"></i></a></li>
-              <li class="list-inline-item"><a class="text-white" href="https://twitter.com/justdesigncoop"><i class="fa fa-twitter"></i></a></li>
-              <li class="list-inline-item"><a class="text-white" href="https://www.instagram.com/justdesigncoop/"><i class="fa fa-instagram"></i></a></li>
-              <li class="list-inline-item"><a class="text-white" href="https://www.youtube.com/channel/UCKaaPTbSjccK7nA6Q8WIC0w"><i class="fa fa-youtube-play"></i></a></li>
-              <li class="list-inline-item"><a class="text-white" href="https://github.com/justdesigncoop"><i class="fa fa-github"></i></a></li>
-            </ul>
-        </div>
-      </footer>
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/assets/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/assets/manifest.json">
+  <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#339966">
+  <link rel="shortcut icon" href="/assets/favicon.ico">
 
-      <script src="{{'/assets/js/jquery.min.js' | prepend: site.baseurl}}"></script>
-      <script src="{{'/assets/js/popper.min.js' | prepend: site.baseurl}}"></script>
-      <script src="{{'/assets/js/bootstrap.bundle.min.js' | prepend: site.baseurl}}"></script>
-    </body>
+  {% include analytics.html %}
+
+  <title>JustDesign Cooperative</title>
+
+</head>
+
+<body>
+  <header>
+    <!-- Just an image -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <a class="navbar-brand" href="/">
+        <img src="/assets/images/logo-small.png" width="42" height="42" alt="">
+        JustDesign
+      </a>
+
+      <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2 mr-auto">
+        <ul class="navbar-nav">
+          <li class="nav-item {% if page.title == 'About' %} active {% endif %}">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item {% if page.title == 'Blog' %} active {% endif %}">
+            <a class="nav-link" href="/blog">Blog</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item {% if page.title == 'Projects' %} active {% endif %}">
+            <a class="nav-link" href="/projects">Projects</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav">
+          <li class="nav-item {% if page.title == 'Resources' %} active {% endif %}">
+            <a class="nav-link" href="/resources">Resources</a>
+          </li>
+        </ul>
+
+      </div>
+
+      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <span class="nav-link">{{ site.tagline }}</span>
+          </li>
+        </ul>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- page content -->
+  <main role="main" class="container">
+    {{content}}
+  </main>
+
+  <!-- footer -->
+  <footer class="footer bg-primary text-white">
+    <div class="container">
+      <ul class="list-unstyled list-inline text-center" style="margin-bottom: 0px;">
+        <li class="list-inline-item"><a class="text-white" href="mailto:justdesigncoop@github.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
+        <li class="list-inline-item"><a class="text-white" href="https://www.facebook.com/justdesigncoop/"><i class="fa fa-facebook"></i></a></li>
+        <li class="list-inline-item"><a class="text-white" href="https://twitter.com/justdesigncoop"><i class="fa fa-twitter"></i></a></li>
+        <li class="list-inline-item"><a class="text-white" href="https://www.instagram.com/justdesigncoop/"><i class="fa fa-instagram"></i></a></li>
+        <li class="list-inline-item"><a class="text-white" href="https://www.youtube.com/channel/UCKaaPTbSjccK7nA6Q8WIC0w"><i class="fa fa-youtube-play"></i></a></li>
+        <li class="list-inline-item"><a class="text-white" href="https://github.com/justdesigncoop"><i class="fa fa-github"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="{{'/assets/js/jquery.min.js' | prepend: site.baseurl}}"></script>
+  <script src="{{'/assets/js/popper.min.js' | prepend: site.baseurl}}"></script>
+  <script src="{{'/assets/js/bootstrap.bundle.min.js' | prepend: site.baseurl}}"></script>
+</body>
+
 </html>

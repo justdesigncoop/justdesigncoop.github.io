@@ -1,18 +1,19 @@
-markdown:       kramdown
-highlighter:    rouge
+markdown:            kramdown
+highlighter:         rouge
 
-title:          JustDesign Cooperative, LLC
-tagline:        'Creativity for the Common Good'
-baseurl:        ''
-paginate:       5
-paginate_path:  /page:num/
-permalink:      :title
+title:               JustDesign Cooperative, LLC
+tagline:             'Creativity for the Common Good'
+baseurl:             ''
+paginate:            5
+paginate_path:       /page:num/
+permalink:           /blog/:title
 
-google_analytics:   UA-96195887-1
+google_analytics:    UA-96195887-1
 
 plugins:
   - jekyll-paginate
   - github-pages
+  - jekyll-redirect-from
 
 sass:
     load_paths:
@@ -22,10 +23,9 @@ include:
   - _pages
   - _posts
   - _projects
-exclude: []
+exclude:             []
 
 collections:
   projects:
-    output: true
-    permalink: /:collection/:path/
-
+    output:          true
+    permalink:       /:collection/:title

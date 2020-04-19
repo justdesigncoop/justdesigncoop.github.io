@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="row">
+	<aside class="col-md-2">
+		{% include client-profile.html %}
+	</aside>
+	<div class="col-md-10">
+		<h4>{{ page.title }}</h4>
+
+		{% if post.client and site.data.clients[post.client] %}
+			{% assign client = site.data.clients[post.client] %}
+
+			<p class="text-muted">{{ client.name }}</p>
+		{% endif %}
+
+		{{ content }}
+	</div>
+</div>

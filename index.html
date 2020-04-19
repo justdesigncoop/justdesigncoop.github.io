@@ -11,9 +11,9 @@ title: "JustDesign"
 		</div>
 	</div>
 </div>
-	
 
-  <div class="row">
+
+<div class="row">
 	<div class="col-md-8 blog-main">
 		<h4 class="pb-3 border-bottom">
 			Latest posts
@@ -31,7 +31,7 @@ title: "JustDesign"
 				{% else %}
 				  {% assign title = post.title %}
 				{% endif %}
-				
+
 				{% if teaser %}
 				  <div class="mr-3 mb-3">
 					<a class="pull-left" href="{{ post.url | absolute_url }}" rel="permalink"><img class="media-object" src=
@@ -43,18 +43,18 @@ title: "JustDesign"
 					  alt="" style="max-width:175px"></a>
 				  </div>
 				{% endif %}
-				
+
 				<div class="media-body">
-					<h4 class="media-heading">      
+					<h4 class="media-heading">
 						{% if post.link %}
 							<a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | absolute_url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
 						  {% else %}
 							<a href="{{ post.url | absolute_url }}" rel="permalink">{{ title }}</a>
 						{% endif %}
 					</h4>
-					
+
 					<p class="">{{ post.date | date: "%B %d, %Y" }} by <a href="">{{ post.author }}</a></p>
-				
+
 					{% if post.excerpt %}
 						<p class="" itemprop="description">
 							{{ post.excerpt | markdownify | strip_html | truncate: 160 }}
@@ -63,7 +63,7 @@ title: "JustDesign"
 				</div>
 			</div>
 		{% endfor %}
-		
+
 		<!-- Pagination links -->
 		<nav class="blog-pagination mt-3">
 		  {% if paginator.previous_page %}
@@ -82,10 +82,9 @@ title: "JustDesign"
 
 	<aside class="col-md-4 blog-sidebar">
 		<div>
-			<a class="twitter-timeline" href="https://twitter.com/justdesigncoop?ref_src=twsrc%5Etfw" data-tweet-limit="3">Tweets by justdesigncoop</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+			<a class="twitter-timeline" href="https://twitter.com/justdesigncoop?ref_src=twsrc%5Etfw" data-tweet-limit="3">Tweets by justdesigncoop</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 		</div>
 	</aside>
 
   </div>
 </div>
-
